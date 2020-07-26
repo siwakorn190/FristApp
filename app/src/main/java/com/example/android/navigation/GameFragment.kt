@@ -112,8 +112,7 @@ class GameFragment : Fragment() {
                 }
             }
         }
-        val args = GameWonFragmentArgs.fromBundle(arguments!!)
-        Toast.makeText(context, "NumCorrect: ${args.numCorrect}, NumQuestions: ${args.numQuestions}", Toast.LENGTH_LONG).show()
+
         return binding.root
     }
 
