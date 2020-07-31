@@ -4,9 +4,10 @@
 
     <item
         android:id="@+id/rulesFragment"
-        android:title="@string/rules" />
+        android:icon="@android:drawable/sym_action_call"
+        android:title="Contact Me" />
     <item
         android:id="@+id/aboutFragment"
-        android:icon="@drawable/about_android_trivia"
-        android:title="@string/about" />
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="About Me" />
 </menu>
